@@ -1,0 +1,153 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: #ffedd7;
+  color: #573100;
+  font-family: 'Raleway', sans-serif;
+}
+* {
+  margin:0;
+  padding: 0;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #573100;
+}
+header {
+  height: 8vh;
+}
+nav {
+  padding:1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 1em
+}
+section {
+  margin: 0 5%;
+}
+#home {
+  height: 92vh;
+  display: flex;
+  margin: 0 5%;
+  align-items: center;
+  justify-content: space-between;
+}
+#home .home-text {
+  flex-basis: 40%;
+}
+.home-text h1 {
+  font-size: 48px;
+}
+.home-text h2 {
+  font-size: 32px;
+  margin: 2rem 0;
+}
+#home figure {
+  flex-basis: 40%;
+}
+.btn {
+  color: #fff;
+  background-color: #573100;
+  padding:0.8rem;
+}
+#about {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3rem;
+}
+#about .about-text{
+  width: 600px;
+}
+#about .about-text h2{
+  margin-bottom: 1rem;
+}
+#about figure {
+  width: 400px;
+}
+#services, #projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 3rem;
+  gap: 1.5rem;
+}
+.service-wrapper, .project-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3rem;
+}
+.service-cards {
+  border-radius: 0.5rem;
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  border: 0.1px solid rgba(0, 0, 0, 0.168);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  gap:1rem;
+  padding:3rem;
+  height: 150px;
+  width: 300px;
+}
+.service-cards img {
+  height: 100%;
+  width: 90px;
+}
+.project-cards {
+  border-radius: 0.5rem;
+  background-color: #fff;
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  border: 0.1px solid rgba(0, 0, 0, 0.168);
+  flex-basis: 40%;
+}
+.project-cards img{
+  height: 100%;
+  width: 100%;
+}
+footer {
+  background-color: #452700;
+  padding: 1rem;
+  color: #fff;
+  text-align: center;
+}
+#contact {
+  height: 92vh;
+  display: grid;
+  place-items: center;
+}
+.form {
+  padding:1.5rem 3rem;
+  border: 1px solid;
+  border-radius: 15px;
+  background-color: #fff;
+}
+.form-ctrl {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 0;
+}
+.form-ctrl input {
+  padding: 0.5rem 1rem;
+}
+.form-ctrl label {
+  margin-bottom: .5rem;
+}
+.form button {
+  color: #fff;
+  background-color: #573100;
+  padding: 0.5rem 2rem;
+  font-size: 14px;
+  border: none;
+  border-radius: 0.5rem;
+}
